@@ -8,7 +8,7 @@ def setData(fileName, data):
 
 
 data = []
-setData('input_100.txt', data)
+setData('input_100_lab_1.txt', data)
 
 
 #1
