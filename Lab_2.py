@@ -8,7 +8,7 @@ def setData(fileName, data):
 
 
 data = []
-setData('input_10_lab_2.txt', data)
+setData('input_100_lab_2.txt', data)
 
 
 #1
@@ -68,14 +68,14 @@ b = (10400/129)
 
 for i in range(len(data)):
     y = a * data[i] + b
-    print(data[i], y)
+    print(data[i], int(y))
     data[i] = y
 
 
 #4
 
-stems = [i for i in range(10)]
-plt.xlim(0, 10)
+stems = [i for i in range(100)]
+plt.xlim(0, 100)
 plt.stem(stems, data)
 plt.show()
 
