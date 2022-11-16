@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 import sympy as sp
 import numpy as np
 
-
-
 def connectstring(nameoffile):
     inputdata = []
     input = open(nameoffile)
